@@ -11,6 +11,7 @@ int main(void)
     int s[50],sum,choice,flag=0,f_exit=0,n;
     long a[50];
     float aver;
+    printf("Number:200210325\nName:陈麒源\nSubject No.5 - Project No.1\n\n");
     while(1)
     {
         print_menu();
