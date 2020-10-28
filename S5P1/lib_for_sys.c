@@ -33,7 +33,7 @@ void caculate(int s[],int n,int *ps,float *pa)
         *ps+=s[i];
     }
     *pa=*ps/(float)n;
-    printf("sum:%d\naver:%f",*ps,*pa);
+    printf("sum:%d\naver:%f\n\n",*ps,*pa);
 }
 void list_record(int s[],long a[],int n)
 {
@@ -73,7 +73,7 @@ void sort1(int s[],long a[],int n,int (*pFUN)(int a,int b))
     printf("ID\t\tscore\n");
     for(i=0;i<n;i++)
     {
-        printf("%ld\t\t%d\n",a1[i],s1[i]);
+        printf("%ld\t%d\n",a1[i],s1[i]);
     }
 }
 void sort2(int s[],long a[],int n)
@@ -105,7 +105,7 @@ void sort2(int s[],long a[],int n)
     printf("ID\t\tscore\n");
     for(i=0;i<n;i++)
     {
-        printf("%ld\t\t%d\n",a1[i],s1[i]);
+        printf("%ld\t%d\n",a1[i],s1[i]);
     }
 }
 void look(int s[],long a[],int n)
@@ -140,12 +140,12 @@ void look(int s[],long a[],int n)
     {
         if(a1[i]==x)
         {
-            printf("ID\t\tscore\trank\n%ld\t%d\t%d\n",a1[i],s1[i],i);
+            printf("ID\t\tscore\trank\n%ld\t%d\t%d\n",a1[i],s1[i],i+1);
             flag=1;
         }
 
     }
-    if(flag==0) printf("Not found!");
+    if(flag==0) printf("Not found!Please check the ID!\n\n");
 }
 void apart(int s[],long a[],int n)
 {

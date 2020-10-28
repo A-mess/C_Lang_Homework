@@ -5,3 +5,13 @@
 
 1603810520 d:\subject5project1\s5p1\lib_for_sys.h
 
+1603886461 source:c:\c_lang_homework\s5p1\lib_for_sys.c
+	<stdio.h>
+	"lib_for_sys.h"
+
+1603810520 c:\c_lang_homework\s5p1\lib_for_sys.h
+
+1603885774 source:c:\c_lang_homework\s5p1\main.c
+	<stdio.h>
+	"lib_for_sys.h"
+

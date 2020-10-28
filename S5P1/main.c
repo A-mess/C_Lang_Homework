@@ -11,7 +11,7 @@ int main(void)
     int s[50],sum,choice,flag=0,f_exit=0,n;
     long a[50];
     float aver;
-    printf("Number:200210325\nName:ÈôàÈ∫íÊ∫ê\nSubject No.5 - Project No.1\n\n");
+    printf("Number:200210325\nName:≥¬˜Ë‘¥\nSubject No.5 - Project No.1\n\n");
     while(1)
     {
         print_menu();
@@ -113,8 +113,11 @@ int main(void)
     }
 }
 /*
-8
-
+15
+200210001 97
+200210089 46
+200210023 71
+200210004 13
 200210301 0
 200210302 60
 200210303 54
@@ -123,5 +126,8 @@ int main(void)
 200210306 98
 200210225 82
 200210665 12
+200210779 56
+200100008 79
+256564211 47
 */
 //
