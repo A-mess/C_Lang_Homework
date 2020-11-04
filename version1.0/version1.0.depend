@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1603889774 source:c:\c_lang_homework\version1.0\lib_for_sys.c
+	<stdio.h>
+	"lib_for_sys.h"
+
+1603810520 c:\c_lang_homework\version1.0\lib_for_sys.h
+
+1603889835 source:c:\c_lang_homework\version1.0\main.c
+	<stdio.h>
+	"lib_for_sys.h"
+
